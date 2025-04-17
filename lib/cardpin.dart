@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:topwisemp35p/topwisemp35p.dart';
+
+import 'keyboard.dart';
 
 class CardPin extends StatefulWidget {
   const CardPin({super.key});
@@ -10,10 +13,49 @@ class CardPin extends StatefulWidget {
 class _CardPinState extends State<CardPin> {
   final TextEditingController _pinController = TextEditingController();
 
-  
+  final _topwisemp35pPlugin = Topwisemp35p();
+  var amountController = "";
+
+  void startkeyboarda() {
+    startKeyboard(
+        onchange: result,
+        proceed: proceed,
+        cancel: () {
+          Navigator.pop(context);
+        });
+  }
+
+  Future<void> proceed() async {
+    stopKeyboard();
+    Navigator.pop(context, _pinController.text);
+  }
+
+  void result(String value) {
+    if (value != "delete") {
+      amountController += value;
+    } else {
+      if (amountController.isNotEmpty &&
+          amountController != "0" &&
+          amountController.toString().length > 1) {
+        amountController =
+            amountController.substring(0, amountController.length - 1);
+      } else {
+        amountController = "";
+      }
+    }
+    _pinController.text = amountController;
+    setState(() {});
+  }
+
+  @override
+  void initState() {
+    startkeyboarda();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
         title: Text("Card Pin"),
       ),
@@ -31,12 +73,10 @@ class _CardPinState extends State<CardPin> {
                 labelText: 'Card Pin',
               ),
             ),
-
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context, _pinController.text);
-                
+                proceed();
               },
               child: Text('Submit'),
             ),
