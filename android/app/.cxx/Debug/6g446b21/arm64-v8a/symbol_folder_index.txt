@@ -1,0 +1,1 @@
+C:\Users\DELL\StudioProjects\payrailpos\build\app\intermediates\cxx\Debug\6g446b21\obj\arm64-v8a
