@@ -1,8 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:flutteremv/flutteremv.dart';
+import 'package:flutteremv/transaction_monitor.dart';
 import 'package:payrailpos/cardpin.dart';
-import 'package:topwisemp35p/topwisemp35p.dart';
+
+// import 'package:topwisemp35p/topwisemp35p.dart';
 
 import 'keyboard.dart';
 
@@ -14,7 +17,8 @@ class Withdrawal extends StatefulWidget {
 }
 
 class _WithdrawalState extends State<Withdrawal> {
-  final _topwisemp35pPlugin = Topwisemp35p();
+  // final _topwisemp35pPlugin = Topwisemp35p();
+  final _topwisemp35pPlugin = Flutteremv();
   var newamountController = TextEditingController();
   var amountController = "";
 
