@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       if (event.logicalKey == LogicalKeyboardKey.digit1) {
         // Withdrawal
         print('Withdrawal');
-        Get.to(() => WithdrawalScreen());
+        Get.to(() => const WithdrawalScreen());
       } else if (event.logicalKey == LogicalKeyboardKey.digit2) {
         // Transfer
         print('Transfer');
@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.grey.withOpacity(0.2),
                     spreadRadius: 2,
                     blurRadius: 5,
-                    offset: Offset(0, 3),
+                    offset: const Offset(0, 3),
                   ),
                 ],
                 color: !Get.isDarkMode ? Colors.white : Colors.grey.shade900,
@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ActionItem(
                   icon: 'dash_withdrawal',
                   label: 'action_withdraw'.tr,
-                  toScreen: WithdrawalScreen(),
+                  toScreen: const WithdrawalScreen(),
                 ),
                 ActionItem(
                   icon: 'dash_transfer',

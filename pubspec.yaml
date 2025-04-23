@@ -41,6 +41,15 @@ dependencies:
   pin_code_fields: ^8.0.1
   device_info_plus: ^11.3.0
   # topwisemp35p: ^0.0.7
+  flutteremv:
+    # When depending on this package from a real application you should use:
+    #   flutteremv: ^x.y.z
+    # See https://dart.dev/tools/pub/dependencies#version-constraints
+    # The example app is bundled with the plugin so we use a path dependency on
+    # the parent directory to use the current plugin's version.
+    path:
+      ../flutteremvmp35p/
+      # git: "https://github.com/odejinmi/flutteremvmp35p.git"
 
 dependencies_override:
 
