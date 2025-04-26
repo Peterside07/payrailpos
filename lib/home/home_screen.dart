@@ -50,47 +50,9 @@ class _HomeScreenState extends State<HomeScreen> {
         onKeyEvent: _handleKeyEvent,
         focusNode: _focusNode,
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            //  Obx(
-            //   () =>
-            Container(
-              height: 100,
-              margin: const EdgeInsets.symmetric(horizontal: 16),
-              padding: const EdgeInsets.only(top: 10, left: 10),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey.withOpacity(0.2),
-                    spreadRadius: 2,
-                    blurRadius: 5,
-                    offset: const Offset(0, 3),
-                  ),
-                ],
-                color: !Get.isDarkMode ? Colors.white : Colors.grey.shade900,
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'wallet_balance'.tr,
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          fontSize: 12,
-                        ),
-                  ),
-                  Text(
-                    '100,000,000',
-                    style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                          fontSize: 33,
-                          fontWeight: FontWeight.bold,
-                        ),
-                  ),
-                  const SizedBox(height: 10),
-                ],
-              ),
-            ),
-            //   ),
             const SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -118,14 +80,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 ActionItem(
                   icon: 'dash_bills',
-                  label: 'action_bills'.tr,
+                  label: 'Setting'.tr,
                   // toScreen: TransferScreen(),
                 ),
-                // ActionItem(
-                //   icon: 'dash_transfer',
-                //   label: 'action_vas'.tr,
-                //   // toScreen: HistoryScreen(),
-                // ),
               ],
             ),
           ],

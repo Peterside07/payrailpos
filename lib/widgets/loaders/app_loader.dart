@@ -13,12 +13,11 @@ class AppLoader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LoadingOverlay(
-      child: child,
       isLoading: isLoading,
     //  opacity: 1,
       color: Get.isDarkMode
-          ? Color.fromRGBO(0, 0, 0, 0.9)
-          : Color.fromRGBO(255, 255, 255, 0.9),
+          ? const Color.fromRGBO(0, 0, 0, 0.9)
+          : const Color.fromRGBO(255, 255, 255, 0.9),
       progressIndicator: SafeArea(
         child: Column(
           children: [
@@ -28,14 +27,14 @@ class AppLoader extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  CircularProgressIndicator(
+                  const CircularProgressIndicator(
                     valueColor: AlwaysStoppedAnimation<Color>(
                       AppColors.PRIMARY_COLOR,
                     ),
                   ),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   Text(
-                    message.isNotEmpty ? '$message' : '${'please_wait'.tr}...',
+                    message.isNotEmpty ? message : '${'please_wait'.tr}...',
                     style: Theme.of(context)
                         .textTheme
                         .bodyMedium
@@ -47,6 +46,7 @@ class AppLoader extends StatelessWidget {
           ],
         ),
       ),
+      child: child,
     );
   }
 }
