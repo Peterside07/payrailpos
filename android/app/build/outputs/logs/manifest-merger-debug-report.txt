@@ -1,0 +1,472 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-44:12
+MERGED from [:shared_preferences_android] /Users/peterside/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.7/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/2d8c0bd2680400484da7093540a036fa/transformed/jetified-datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/7d4963e70c714c3d4f5c2378c5b1e596/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/b6bf3250f93d6eeb2ac85b4e19b49ab9/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [:device_info_plus] /Users/peterside/.pub-cache/hosted/pub.dev/device_info_plus-11.3.0/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/3eb610fd0340ab9956920228a85348d2/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/a64409adcda19a52e536e4b843d34d47/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/peterside/.gradle/caches/8.10/transforms/ae6a29fdbdc0ce342bd7d844f12e3922/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/peterside/.gradle/caches/8.10/transforms/cb2e974424bb053e9d05ee1a6616cc5c/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/88a7d02dc4c405af064fa0b7df9ded67/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/1936c9bb0d075b6c8a10b779ad51e188/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/19ad9f2456e20086c4dcbad8782bb30c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/9422986aaa9e37498f6b933bcd56197e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/peterside/.gradle/caches/8.10/transforms/e990775962659e6abdab63413dedcd93/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/peterside/.gradle/caches/8.10/transforms/e7204a8fdd8a6073fa3798bded11ec20/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/783e4a62f9bf7e732b91a0faca7a8277/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/56e6443ca3f4e1d781f527e3cecbadef/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/30aff4aa0378f4eb010ccbdfed63829a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/e818c775a7de1cd88cb1f953c0594770/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/471f8582a59368cccf8ca416c9ca4066/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/c071a806c4d04e0ed9527c525a67879a/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/9af7416677c71a6f8b5ba1a6435133bb/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/09b1cbe1d1db8b51a2d33371d10a1e7e/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/7b0978b4f7fea331aab9e2e01edbe159/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/f9ce36e45036dac8d88dd218673c5c7f/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/7873b8d6eead4502c0aacf781e32f199/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/9cc10cc4b1b8f590a3eac83863a114ff/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/c47223aff74f58e5d329662e49302676/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/0266ed55108c020498b1fe5521751818/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/25830a5ead935fae513f4072e3aca9a6/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/peterside/.gradle/caches/8.10/transforms/7874e87b7af731b6df71577aebbb42ba/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/250e10b8e152f53f1a109b08843796d1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/c3565873c286373447dd5af370c484bc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/d70751e2b18437cb495727d9a4d3e2e0/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/cb5442b43eb6b19d4c743608b32ecff6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/26d01cd9da7365168c4d0a45b54eb105/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/7133f1bec9a74a01fa95960c2c57d449/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/a5a5d321786d39e420a057f9d03dff2b/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/peterside/.gradle/caches/8.10/transforms/1794c8b75b444668e164eec01ebec019/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/460af49bb473aeb5454572fc03026063/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/4b8cb002d7ffb86844e72a10f5f3a684/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/peterside/.gradle/caches/8.10/transforms/1418352a529769a1c5723cbf420645ec/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/b440f5689217a2598ee6bc3719415a7f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/b23f5159a07a6b749747db4bf5eddd2c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/ba311093d8f34af19baeafae002e7ab3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/4e4d6796a62e24985f073e2530e50ef1/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/16d1e8af1138ac68c9ff5cdb09935632/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/c4f425282349c7448f549eb614eba22d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/af4f633c17680791413e32d8ba48d8af/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/peterside/.gradle/caches/8.10/transforms/0a6a1d2368305aab14fb2ef766439f4f/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/peterside/.gradle/caches/8.10/transforms/8a4f2e6faa10e6e21a486fc9bace585d/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:2:5-31:19
+INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:5-42:19
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:5-42:19
+MERGED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/460af49bb473aeb5454572fc03026063/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/460af49bb473aeb5454572fc03026063/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/b440f5689217a2598ee6bc3719415a7f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/b440f5689217a2598ee6bc3719415a7f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:3:9-35
+	android:icon
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:4:9-43
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:18-76
+activity#com.example.payrailpos.MainActivity
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:5:9-25:20
+	android:launchMode
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:8:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:11:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:12:13-55
+	android:exported
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:7:13-36
+	android:configChanges
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:10:13-163
+	android:theme
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:9:13-47
+	android:name
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:6:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:17:13-20:17
+	android:resource
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:19:15-52
+	android:name
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:18:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:22:17-68
+	android:name
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:23:17-76
+	android:name
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:23:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:28:9-30:33
+	android:value
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:30:13-30
+	android:name
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:29:13-44
+queries
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:37:5-42:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:38:9-41:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:39:13-72
+	android:name
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:39:21-70
+data
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:40:13-50
+	android:mimeType
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/main/AndroidManifest.xml:40:19-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:32:5-67
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:32:5-67
+	android:name
+		ADDED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-sdk
+INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/peterside/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.7/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/peterside/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.7/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/2d8c0bd2680400484da7093540a036fa/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/2d8c0bd2680400484da7093540a036fa/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/7d4963e70c714c3d4f5c2378c5b1e596/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/7d4963e70c714c3d4f5c2378c5b1e596/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/b6bf3250f93d6eeb2ac85b4e19b49ab9/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.3] /Users/peterside/.gradle/caches/8.10/transforms/b6bf3250f93d6eeb2ac85b4e19b49ab9/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [:device_info_plus] /Users/peterside/.pub-cache/hosted/pub.dev/device_info_plus-11.3.0/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /Users/peterside/.pub-cache/hosted/pub.dev/device_info_plus-11.3.0/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/3eb610fd0340ab9956920228a85348d2/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/3eb610fd0340ab9956920228a85348d2/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/a64409adcda19a52e536e4b843d34d47/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/a64409adcda19a52e536e4b843d34d47/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/peterside/.gradle/caches/8.10/transforms/ae6a29fdbdc0ce342bd7d844f12e3922/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] /Users/peterside/.gradle/caches/8.10/transforms/ae6a29fdbdc0ce342bd7d844f12e3922/transformed/jetified-fragment-ktx-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/peterside/.gradle/caches/8.10/transforms/cb2e974424bb053e9d05ee1a6616cc5c/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/peterside/.gradle/caches/8.10/transforms/cb2e974424bb053e9d05ee1a6616cc5c/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/88a7d02dc4c405af064fa0b7df9ded67/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/88a7d02dc4c405af064fa0b7df9ded67/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/1936c9bb0d075b6c8a10b779ad51e188/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/1936c9bb0d075b6c8a10b779ad51e188/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/19ad9f2456e20086c4dcbad8782bb30c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/19ad9f2456e20086c4dcbad8782bb30c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/9422986aaa9e37498f6b933bcd56197e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/9422986aaa9e37498f6b933bcd56197e/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/peterside/.gradle/caches/8.10/transforms/e990775962659e6abdab63413dedcd93/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/peterside/.gradle/caches/8.10/transforms/e990775962659e6abdab63413dedcd93/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/peterside/.gradle/caches/8.10/transforms/e7204a8fdd8a6073fa3798bded11ec20/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/peterside/.gradle/caches/8.10/transforms/e7204a8fdd8a6073fa3798bded11ec20/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/783e4a62f9bf7e732b91a0faca7a8277/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/783e4a62f9bf7e732b91a0faca7a8277/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/56e6443ca3f4e1d781f527e3cecbadef/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/56e6443ca3f4e1d781f527e3cecbadef/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/30aff4aa0378f4eb010ccbdfed63829a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/30aff4aa0378f4eb010ccbdfed63829a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/e818c775a7de1cd88cb1f953c0594770/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/e818c775a7de1cd88cb1f953c0594770/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/471f8582a59368cccf8ca416c9ca4066/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/471f8582a59368cccf8ca416c9ca4066/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/c071a806c4d04e0ed9527c525a67879a/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/c071a806c4d04e0ed9527c525a67879a/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/9af7416677c71a6f8b5ba1a6435133bb/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/9af7416677c71a6f8b5ba1a6435133bb/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/09b1cbe1d1db8b51a2d33371d10a1e7e/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/09b1cbe1d1db8b51a2d33371d10a1e7e/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/7b0978b4f7fea331aab9e2e01edbe159/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/7b0978b4f7fea331aab9e2e01edbe159/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/f9ce36e45036dac8d88dd218673c5c7f/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/f9ce36e45036dac8d88dd218673c5c7f/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/7873b8d6eead4502c0aacf781e32f199/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/7873b8d6eead4502c0aacf781e32f199/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/9cc10cc4b1b8f590a3eac83863a114ff/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/9cc10cc4b1b8f590a3eac83863a114ff/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/c47223aff74f58e5d329662e49302676/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/c47223aff74f58e5d329662e49302676/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/0266ed55108c020498b1fe5521751818/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/0266ed55108c020498b1fe5521751818/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/25830a5ead935fae513f4072e3aca9a6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/25830a5ead935fae513f4072e3aca9a6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/peterside/.gradle/caches/8.10/transforms/7874e87b7af731b6df71577aebbb42ba/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/peterside/.gradle/caches/8.10/transforms/7874e87b7af731b6df71577aebbb42ba/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/250e10b8e152f53f1a109b08843796d1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/250e10b8e152f53f1a109b08843796d1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/c3565873c286373447dd5af370c484bc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/peterside/.gradle/caches/8.10/transforms/c3565873c286373447dd5af370c484bc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/d70751e2b18437cb495727d9a4d3e2e0/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/d70751e2b18437cb495727d9a4d3e2e0/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/cb5442b43eb6b19d4c743608b32ecff6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/cb5442b43eb6b19d4c743608b32ecff6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/26d01cd9da7365168c4d0a45b54eb105/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/26d01cd9da7365168c4d0a45b54eb105/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/7133f1bec9a74a01fa95960c2c57d449/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/7133f1bec9a74a01fa95960c2c57d449/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/a5a5d321786d39e420a057f9d03dff2b/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/peterside/.gradle/caches/8.10/transforms/a5a5d321786d39e420a057f9d03dff2b/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/peterside/.gradle/caches/8.10/transforms/1794c8b75b444668e164eec01ebec019/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/peterside/.gradle/caches/8.10/transforms/1794c8b75b444668e164eec01ebec019/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/460af49bb473aeb5454572fc03026063/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/460af49bb473aeb5454572fc03026063/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/4b8cb002d7ffb86844e72a10f5f3a684/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/4b8cb002d7ffb86844e72a10f5f3a684/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/peterside/.gradle/caches/8.10/transforms/1418352a529769a1c5723cbf420645ec/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/peterside/.gradle/caches/8.10/transforms/1418352a529769a1c5723cbf420645ec/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/b440f5689217a2598ee6bc3719415a7f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/b440f5689217a2598ee6bc3719415a7f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/b23f5159a07a6b749747db4bf5eddd2c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/b23f5159a07a6b749747db4bf5eddd2c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/ba311093d8f34af19baeafae002e7ab3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/ba311093d8f34af19baeafae002e7ab3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/4e4d6796a62e24985f073e2530e50ef1/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/4e4d6796a62e24985f073e2530e50ef1/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/16d1e8af1138ac68c9ff5cdb09935632/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/16d1e8af1138ac68c9ff5cdb09935632/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/c4f425282349c7448f549eb614eba22d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/c4f425282349c7448f549eb614eba22d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/af4f633c17680791413e32d8ba48d8af/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/peterside/.gradle/caches/8.10/transforms/af4f633c17680791413e32d8ba48d8af/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/peterside/.gradle/caches/8.10/transforms/0a6a1d2368305aab14fb2ef766439f4f/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/peterside/.gradle/caches/8.10/transforms/0a6a1d2368305aab14fb2ef766439f4f/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/peterside/.gradle/caches/8.10/transforms/8a4f2e6faa10e6e21a486fc9bace585d/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/peterside/.gradle/caches/8.10/transforms/8a4f2e6faa10e6e21a486fc9bace585d/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CLOUDPOS_PRINTER
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-72
+uses-permission#android.permission.CLOUDPOS_PINPAD
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-71
+uses-permission#android.permission.CLOUDPOS_PINPAD_PIN_BLOCK
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-84
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:22-81
+uses-permission#android.permission.CLOUDPOS_PINPAD_PIN_MAC
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-82
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:22-79
+uses-permission#android.permission.CLOUDPOS_PINPAD_ENCRYPT_DATA
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:5-87
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:22-84
+uses-permission#android.permission.CLOUDPOS_PINPAD_UPDATE_MKEY
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-86
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:22-83
+uses-permission#android.permission.CLOUDPOS_PINPAD_UPDATE_WKEY
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:5-86
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:22-83
+uses-permission#android.permission.CLOUDPOS_ICCARD
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:22-71
+uses-permission#android.permission.CLOUDPOS_EMVL2
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:22-70
+uses-permission#android.permission.CLOUDPOS_RFCARD
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:22-71
+uses-permission#android.permission.CLOUDPOS_MAGCARD
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:22-72
+uses-permission#android.permission.CLOUDPOS_MAGCARD_GETTRACKDATA
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:5-88
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:22-85
+uses-permission#android.permission.CLOUDPOS_MAGCARD_GETENCRYPTTRACKDATA
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:5-95
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:22-92
+uses-permission#android.permission.CLOUDPOS_PSAMCARD
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.CLOUDPOS_SERIALPORT
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:22-75
+uses-permission#android.permission.CLOUDPOS_SYSTEMDEV
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:5-77
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:22-74
+uses-permission#android.permission.CLOUDPOS_SYSTEMDEV_ALARM
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:5-83
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:22-80
+uses-permission#android.permission.CLOUDPOS_SYSTEMDEV_INSTALL
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:5-85
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:22-82
+uses-permission#android.permission.CLOUDPOS_SYSTEMDEV_OS_UPDATE
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:5-87
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:22-84
+uses-permission#android.permission.CLOUDPOS_SHELLMONITORDEV
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:5-83
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:22-80
+uses-permission#android.permission.CLOUDPOS_CPUCARD
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:22-72
+uses-permission#android.permission.CLOUDPOS_CASHER
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:5-74
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:22-71
+uses-permission#android.permission.CAMERA
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:5-65
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:22-62
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:34:5-84
+	android:name
+		ADDED from [:flutteremv] /Users/peterside/Documents/flutteremvmp35p/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:34:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/peterside/Documents/payrailpos/android/app/src/debug/AndroidManifest.xml:1:1-7:12 reason: com.a5starcompany.flutteremv requested WRITE_EXTERNAL_STORAGE
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/peterside/.gradle/caches/8.10/transforms/6739b4bbbecbe380adddf1bf58dbf194/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.payrailpos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.payrailpos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/peterside/.gradle/caches/8.10/transforms/65eec33936043e8ca059c96cfc8c85c5/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/460af49bb473aeb5454572fc03026063/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/peterside/.gradle/caches/8.10/transforms/460af49bb473aeb5454572fc03026063/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/peterside/.gradle/caches/8.10/transforms/1f98a2cb43d3a3f8bfc5637b343bd930/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/peterside/.gradle/caches/8.10/transforms/19bda3d1fe78a6ad2bb3b93a0eebea6d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

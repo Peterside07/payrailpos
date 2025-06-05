@@ -1,0 +1,2 @@
+/Users/peterside/Documents/payrailpos/android/app/.cxx/Debug/2g3x3l1i/x86/CMakeFiles/edit_cache.dir
+/Users/peterside/Documents/payrailpos/android/app/.cxx/Debug/2g3x3l1i/x86/CMakeFiles/rebuild_cache.dir

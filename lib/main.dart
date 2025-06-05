@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:payrailpos/controller/global_controller.dart';
+import 'package:payrailpos/controller/pos_controller.dart';
 import 'package:payrailpos/login.dart';
+import 'package:payrailpos/screen/splash_screen.dart';
 import 'package:payrailpos/theme/theme.dart';
 import 'package:payrailpos/translations/translations.dart';
 import 'package:payrailpos/withdraw.dart';
 
 void main() {
+  Get.put(POSController());
   WidgetsFlutterBinding.ensureInitialized();
   runApp(App());
 }
@@ -18,6 +21,7 @@ class App extends StatefulWidget {
 
 class _AppState extends State<App> {
   final globalController = Get.put(GlobalController());
+  
 
   @override
   void initState() {
@@ -59,7 +63,7 @@ class _AppState extends State<App> {
                 : globalController.currentTheme.value == 'Dark'
                     ? ThemeMode.dark
                     : ThemeMode.system,
-          home: Signin(),
+          home: const SplashScreen(),
         ),
       ),
     );

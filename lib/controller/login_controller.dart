@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:payrailpos/controller/global_controller.dart';
+import 'package:payrailpos/controller/pos_controller.dart';
 import 'package:payrailpos/global/endpoints.dart';
-import 'package:payrailpos/home/home_screen.dart';
+import 'package:payrailpos/screen/home/home_screen.dart';
 import 'package:payrailpos/service/api.dart';
 import 'package:payrailpos/service/storage.dart';
 import 'package:payrailpos/service/token.dart';
@@ -20,6 +21,9 @@ class LoginController extends GetxController {
   var password = ''.obs;
   var rememberMe = false.obs;
   var isPhoneFieldFocused = true;
+
+  final posCtrl = Get.find<POSController>(); 
+  
 
   final globalCtx = Get.put(GlobalController());
 
@@ -169,16 +173,13 @@ class LoginController extends GetxController {
     var data = {
       'deviceId': '123',
       // 'terminalId': DeviceService.deviceId,
-      'password': pinCtx.text,
+      'password': 'Password1@',
       'phoneNumber': phone.value,
     };
 
     isLoading.value = true;
     var res = await Api().post(Endpoints.LOGIN, data);
     isLoading.value = false;
-    print('Login Response: $res');
-    print(res.respCode);
-    print(res.respDesc);
 
     if (res.respCode == 0) {
       if (rememberMe.value) {
@@ -190,9 +191,10 @@ class LoginController extends GetxController {
       }
       globalCtx.token.value = res.data['token'];
       TokenService.token = res.data['token'];
+       await posCtrl.keyExhange();
 
       globalCtx.barIndex.value = 0;
-      Get.offAll(() => HomeScreen());
+      Get.offAll(() => const HomeScreen());
 
       StorageService().saveToken(res.data['refreshToken']);
       StorageService().saveViewedWalkthrough();

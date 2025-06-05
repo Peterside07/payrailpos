@@ -12,6 +12,49 @@ class StorageService {
     prefs.setBool('exchange', true);
   }
 
+
+  static const String _sessionKey = 'sessionKey';
+  static const String _masterKey = 'masterKey';
+  static const String _tmasterKey = 'tmasterKey';
+  static const String _pinKy = 'pinKey';
+
+  Future<void> saveSessionKey(String sessionKey) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_sessionKey, sessionKey);
+  }
+
+  Future<void> saveMasterKey(String masterKey) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_masterKey, masterKey);
+  }
+
+  Future<void> saveTMasterKey(String tmasterKey) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_tmasterKey, tmasterKey);
+  }
+
+  Future<void> savePinKy(String pinKy) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_pinKy, pinKy);
+  }
+
+  Future<String> getSessionKey() async {
+    await _initPref();
+    return prefs.getString(_sessionKey) ?? '';
+  }
+  Future<String> getMasterKey() async {
+    await _initPref(); 
+    return prefs.getString(_masterKey) ?? '';
+  }
+  Future<String> getTMasterKey() async {
+    await _initPref();
+    return prefs.getString(_tmasterKey) ?? '';
+  }
+  Future<String> getPinKy() async {
+    await _initPref();
+    return prefs.getString(_pinKy) ?? '';
+  }
+
   Future<bool> getExchange() async {
     await _initPref();
     return prefs.getBool('exchange') ?? false;

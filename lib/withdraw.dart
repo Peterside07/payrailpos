@@ -1,8 +1,14 @@
 // import 'dart:convert';
+// import 'dart:developer';
 
 // import 'package:flutter/material.dart';
+// import 'package:flutteremv/flutteremv.dart';
+// import 'package:flutteremv/print.dart';
+// import 'package:flutteremv/transaction_monitor.dart';
 // import 'package:payrailpos/cardpin.dart';
-// import 'package:topwisemp35p/topwisemp35p.dart';
+// // import 'package:payrailpos/receipt.dart';
+
+// // import 'package:topwisemp35p/topwisemp35p.dart';
 
 // import 'keyboard.dart';
 
@@ -14,17 +20,18 @@
 // }
 
 // class _WithdrawalState extends State<Withdrawal> {
-//   final _topwisemp35pPlugin = Topwisemp35p();
+//   // final _topwisemp35pPlugin = Topwisemp35p();
+//   final _topwisemp35pPlugin = Flutteremv();
 //   var newamountController = TextEditingController();
 //   var amountController = "";
 
 //   void startkeyboarda() {
-//     startKeyboard(
-//         onchange: result,
-//         proceed: proceed,
-//         cancel: () {
-//           Navigator.pop(context);
-//         });
+//     // startKeyboard(
+//     //     onchange: result,
+//     //     proceed: proceed,
+//     //     cancel: () {
+//     //       Navigator.pop(context);
+//     //     });
 //   }
 
 //   Future<void> proceed() async {
@@ -52,11 +59,11 @@
 //   void initState() {
 //     startkeyboarda();
 //     _topwisemp35pPlugin.stateStream.listen((values) async {
-//       print(" card state $values");
+//       log(" card state $values");
 //       // if(statereceived) return;
 //       // statereceived = true;
 //       // setState((){});
-//       print("another card state $values");
+//       log("another card state $values");
 //       // Handle the state change here
 //       var value = transactionMonitorFromJson(jsonEncode(values));
 //       switch (value.state) {
@@ -64,9 +71,46 @@
 //           //  Insertcardloader(Get.context);
 //           return;
 //         case "CardData":
+//           log(values);
+//           // Navigator.push(
+//           //     context,
+//           //     MaterialPageRoute(
+//           //       builder: (context) => Receipt(
+//           //         value.transactionData!,
+//           //       ),
+//           //     )).then((result) {
+//           //   // if (result != null) {
+//           //   //   print("result $result");
+//           //   //   _topwisemp35pPlugin.enterpin(result);
+//           //   //   startKeyboard();
+//           //   // }
+//           // });
+//           return;
+//           // var args = Print(
+//           //           base64image: "base64string",
+//           //           marchantname: "VERDANT MICROFINANCE BANK",
+//           //           datetime: "27 Jan 2023,06:55AM",
+//           //           terminalid: "2LUX4199",
+//           //           merchantid: "2LUXAA00000001",
+//           //           transactiontype: "CARD WITHDRAWAL",
+//           //           copytype: "Merchant",
+//           //           rrn: "561409897476",
+//           //           stan: "904165",
+//           //           pan: "539983******1954",
+//           //           expiry: "2303",
+//           //           transactionstatus: "DECLINED",
+//           //           responsecode: "55",
+//           //           message: "Incorrect PIN",
+//           //           appversion: "1.5.3",
+//           //           amount: "200",
+//           //           bottommessage:
+//           //               "Buy Airtime and Pay Electricity bills here anytime!    AnyDAY!",
+//           //           marchantaddress: '',
+//           //           serialno: '',
+//           //         );
+//           // _topwisemp35pPlugin.startprinting(args);
 //           //   Get.back();
 //           //  request(value);
-//           return;
 //         case "CardReadTimeOut":
 //         case "CallBackError":
 //         case "CallBackTransResult":
@@ -80,7 +124,7 @@
 //           return;
 //         // case "CallBackCanceled":
 //         case "CardDetected":
-//           print("card detected state $values");
+//           log("card detected state $values");
 //           //   Get.back();
 //           //  f();
 //           // var result = await Get.toNamed(Routes.CARDPIN, arguments: {"amount": amountController, "pan": value.message});
@@ -89,16 +133,17 @@
 //           //   loader(Get.context, "Reading Card");
 //           // }
 
-//           stopKeyboard();
+//        //   stopKeyboard();
 //           Navigator.push(
 //               context,
 //               MaterialPageRoute(
 //                 builder: (context) => const CardPin(),
 //               )).then((result) {
 //             if (result != null) {
-//               print("result $result");
+//               log("result $result");
 //               _topwisemp35pPlugin.enterpin(result);
-//               startKeyboard();
+//            //   startKeyboard();
+
 //               // loader(Get.context, "Reading Card");
 //             }
 //           });

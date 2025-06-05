@@ -1,7 +1,11 @@
+// ignore_for_file: constant_identifier_names, non_constant_identifier_names, prefer_function_declarations_over_variables
+
 class Endpoints {
   static const LOGIN = 'agents/login';
   static const SIGN_UP = 'agents/signup';
   static const BANK_API = 'banks/all';
+  static const PROCESSPAYMENT = 'api/fidesic/fidesic-purchase';
+  static const KeyExchange = 'api/fidesic/session-key';
   static const GENERATE_OTP = 'agents/verify-otp';
   static const VALIDATE_OTP = 'security/otp/validate';
   static const TRANSACTION_API = 'api/transaction/process';

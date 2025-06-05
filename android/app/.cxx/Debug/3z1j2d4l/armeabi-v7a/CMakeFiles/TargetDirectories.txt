@@ -1,0 +1,2 @@
+/Users/peterside/Documents/payrailpos/android/app/.cxx/Debug/3z1j2d4l/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/peterside/Documents/payrailpos/android/app/.cxx/Debug/3z1j2d4l/armeabi-v7a/CMakeFiles/rebuild_cache.dir
