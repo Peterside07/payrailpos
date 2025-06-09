@@ -88,6 +88,7 @@ class _WithdrawalScreenState extends State<WithdrawalScreen> {
             MaterialPageRoute(builder: (context) => Carpin(amount: amount)),
           );
           if (result != null) {
+            print("Card PIN entered: $result");
             cardPin = result;
             _topwisemp35pPlugin.enterpin(cardPin!);
             setState(
