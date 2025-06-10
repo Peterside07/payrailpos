@@ -108,6 +108,9 @@ class POSController extends GetxController {
     var merchantType = '5045'; // Default MCC for PayU
     final sessionKey = await StorageService().getSessionKey();
 
+
+    // {"field2":"5399239049940101","field3":"001000","field4":"0000000001000","field7":"0602134606","field11":"476709","field12":"134606","field13":"0602","field14":"2711","field18":"5045","field22":"052","field23":"001","field25":"00","field26":"04","field28":"00000100","field32":"539923","field35":"5399239049940101D2711221017510955","field37":"060212445884","field40":"221","field41":"201146YD","field42":"2011LA018411459","field55":"82023900950500002480009A032506029C01005F2A0203609F02060000005000009F03060000000000009F10120110A040002C0000000000000000000000FF9F1A0203609F2608285AA09FB91162BF9F3303E0F8C89F34034203009F3501229F360200499F2701809F37049AF873CD","field123":"510101511344101","field128":"796ff41d47b68362b4b7071758d1ccb2b20b5341ebea450d3520d6a0bd62d58d","field43":"ACCESS NATION MOBILE PH4AOTIGBASTRCOLANG","field49":"566","sessionId":"34ecd5c28a987089736eb9d63875e9d5","terminalId":"201146YD","terminalSerial":"083030303030303031"}
+
     String mac128 = generateMacc({
       'field2': transactionData['applicationPrimaryAccountNumber'] ?? '',
       'field3': '001000',
@@ -118,7 +121,7 @@ class POSController extends GetxController {
       'field13': field13,
       'field14': transactionData['expirationDate'] ?? '',
       'field18': merchantType,
-      'field22': '051', //pass 051 for online card
+      'field22': '052', //pass 051 for online card
       'field23': "001",
       'field25': '00',
       'field26': '04',
@@ -134,7 +137,7 @@ class POSController extends GetxController {
       'field123': '510101511344101',
       "field43": "ACCESS NATION MOBILE PH4AOTIGBASTRCOLANG",
       "field49": "566",
-      'sessionId': "9d9ec798e3d54c45e0bcd5c11f2901ad",
+      'sessionId': sessionKey,
       'terminalId': '201146YD',
       'terminalSerial': transactionData['interfaceDeviceSerialNumber'] ??
           '083030303030303031',
@@ -163,17 +166,19 @@ class POSController extends GetxController {
       'field40': '221',
       'field41': '201146YD',
       'field42': acquirerId,
-   //  'field52':'1212', // Encrypt pin block
       // 'field52': transactionData['plainPinKey'] ?? '',
       'field55': transactionData['unifiedPaymentIccData'] ?? '',
       'field123': '510101511344101',
       'field128': mac128,
       "field43": "ACCESS NATION MOBILE PH4AOTIGBASTRCOLANG",
       "field49": "566",
-      'sessionId': sessionKey,
+      'sessionId':
+      // "3d299e5197b6048949e5619de9372929",
+      sessionKey,
       'terminalId': '201146YD',
-      'terminalSerial': transactionData['interfaceDeviceSerialNumber'] ??
-          '083030303030303031',
+      'terminalSerial': '98221207923032'
+      // transactionData['interfaceDeviceSerialNumber'] ??
+          //'083030303030303031',
     };
 
     print('Processing transaction with data: $data');
